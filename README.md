@@ -18,3 +18,5 @@ If you run `make` in terminal, file `htmltmp.ts`
 will be removed and generate new one.  
 After this the test will run and print result to  
 terminal.
+
+`esbuild` used for build javascript file
