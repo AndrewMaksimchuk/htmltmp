@@ -2,5 +2,8 @@
     "name": "htmltmp",
     "description": "Generate html using function",
     "main": "htmltmp.ts",
-    "version": "0.0.1"
+    "version": "0.0.1",
+    "devDependencies": {
+        "h3": "^1.12.0"
+    }
 }

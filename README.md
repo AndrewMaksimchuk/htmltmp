@@ -20,3 +20,6 @@ After this the test will run and print result to
 terminal.
 
 `esbuild` used for build javascript file
+
+
+## [Example](example.js)

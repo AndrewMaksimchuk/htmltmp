@@ -12,3 +12,6 @@ build_js:
 clean:
 	@rm -f htmltmp.ts
 	@rm -f htmltmp.js
+
+example:
+	npx --yes listhen -w --open ./example.js
