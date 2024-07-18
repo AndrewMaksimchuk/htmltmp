@@ -52,7 +52,7 @@ const attributesToString = <T>(attributesList: RecursivePartial<T>) => {
     return Object
         .entries(attributesList).filter(([key, _]) => "toString" !== key)
         .reduce((result, [attrName, attrValue]) => {
-            return attrName === 'style' ? result + ' ' + attrName + '="' + styleDeclarationToString(attrValue)  + '"' : result + ' ' + attrName + '="' + attrValue + '"';
+            return attrName === 'style' ? result + ' ' + attrName + '="' + styleDeclarationToString(attrValue as CSSStyleDeclaration /* FIXME infer correct type*/)  + '"' : result + ' ' + attrName + '="' + attrValue + '"';
         }, '');
 }
 `

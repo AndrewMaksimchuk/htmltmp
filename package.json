@@ -2,8 +2,10 @@
     "name": "htmltmp",
     "description": "Generate html using function",
     "main": "htmltmp.ts",
+    "type": "module",
     "version": "0.0.1",
     "devDependencies": {
-        "h3": "^1.12.0"
+        "h3": "^1.12.0",
+        "typescript": "^5.5.3"
     }
 }
